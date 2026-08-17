@@ -1,36 +1,78 @@
-# 🌍 WorldWise  
+# WORLD WISE 🌍
 
-![React](https://img.shields.io/badge/React-18-blue)
-![Vite](https://img.shields.io/badge/Vite-4.0-brightgreen)
-![React Router](https://img.shields.io/badge/React%20Router-v6-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+A Single Page Application (SPA) built with React for managing trips and keeping track of visited cities.
 
-یک وب‌سایت مدرن برای **رزرو بلیط** که با استفاده از نقشه و لیست شهرها به شما اجازه می‌دهد مقصد خود را انتخاب و مدیریت کنید.
+Users can explore cities on an interactive map, save travel dates, and add personal notes for each visited city. The application provides a smooth and interactive experience for organizing and visualizing travel history.
 
----
+## ✨ Features
 
-## ✨ ویژگی‌ها (Features)
+* 🌍 Explore and view cities on an interactive map
+* 📍 Pin visited cities on the map
+* 📅 Save travel dates for each city
+* 📝 Add notes and personal information for visited cities
+* 🗺️ Interactive map powered by React Leaflet
+* 🔄 Client-side navigation without page refreshes
+* 🧩 Reusable React components
+* ⚡ Global state management using Context API and useReducer
+* 💾 Data management using REST API and JSON Server
+* 📱 Responsive and user-friendly interface
 
-- 🗺 **انتخاب مقصد از روی نقشه**  
-- 🏙 **مشاهده لیست شهرها و کشورها**  
-- 📍 **تشخیص موقعیت دقیق مقصد**  
-- 🎫 **سیستم رزرو بلیط ساده و کاربردی**  
-- 🔀 **مسیرهای چند صفحه‌ای با React Router**  
+## 🛠️ Technologies
 
----
+* React
+* React Router
+* Context API
+* useReducer
+* React Leaflet
+* REST API
+* JSON Server
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
-## 🧰 تکنولوژی‌های استفاده شده
+## 🚀 Getting Started
 
-- **HTML / CSS / JavaScript**  
-- **React + Vite**  
-- **React Router v6**  
-- **Leaflet / Map API**  
-- **GitHub Pages** (اختیاری)
+### Prerequisites
 
----
+Make sure you have the following installed:
 
-## 🚀 نحوه اجرا
+* Node.js
+* npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project directory:
+
+```bash
+cd world-wise
+```
+
+Install the dependencies:
 
 ```bash
 npm install
+```
+
+### Run the JSON Server
+
+Start the JSON Server:
+
+```bash
+npm run server
+```
+
+### Run the React Application
+
+Open a new terminal and run:
+
+```bash
 npm run dev
+```
+
+
